@@ -1,0 +1,8 @@
+[pipeline]
+pipeline_name = "wikipedia_data_engineering"
+dataset_name = "wikipedia_analytics"
+
+[sources.wikipedia]
+base_url = "https://dumps.wikimedia.org/other/pageviews/"
+year = 2025
+month = 1

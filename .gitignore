@@ -8,3 +8,30 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+ENV/
+env/
+
+# dlt
+.dlt/secrets.toml
+.dlt/*.duckdb
+.dlt/*.duckdb.wal
+
+# Databases
+*.db
+*.sqlite
+*.duckdb
+*.duckdb.wal
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+store/
