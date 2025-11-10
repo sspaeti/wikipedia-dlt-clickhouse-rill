@@ -13,7 +13,7 @@ ENV/
 env/
 
 # dlt
-.dlt/secrets.toml
+# .dlt/secrets.toml
 .dlt/*.duckdb
 .dlt/*.duckdb.wal
 
@@ -35,3 +35,4 @@ env/
 .DS_Store
 
 store/
+metadata/
