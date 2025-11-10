@@ -17,7 +17,7 @@ WIKIPEDIA_CONFIG = {
     'base_url': 'https://dumps.wikimedia.org/other/pageviews/',
     'year': 2025,
     'month': 1,  # January 2025
-    'days': list(range(1, 3)),  # Just first 2 days for testing
+    'days': list(range(1, 4)),  # Just first 2 days for testing
     'hours': list(range(0, 2)),  # Just first 2 hours per day for testing
 }
 
